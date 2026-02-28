@@ -1,0 +1,105 @@
+body
+{
+    color: #d65f1f;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    background: linear-gradient(10deg, #531e02, #000000);
+    margin-top: 0px;
+    height: 180px; 
+}
+#page-items
+{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#selections
+{
+    display: flex;
+    flex-direction: row;
+}
+header h1
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header img
+{
+    width: 170px;
+    height: 170px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+button
+{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(10deg, #a54009, #7d3f09);
+    border: 1px solid rgba(44, 14, 2, 0.15);
+    border-radius: 10px;
+    font-size: 25pt;
+}
+#total
+{
+    width: fit-content;
+    height: 40px;
+    background: linear-gradient(10deg, #531e02, #2e0d01);
+    border: 1px solid rgba(44, 14, 2, 0.15);
+    border-radius: 10px;
+    font-size: 25pt;
+    padding: 20px;
+}
+#photosContainer, #locationsContainer
+{
+    margin: 20px;
+    background: linear-gradient(10deg, #531e02, #2e0d01);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(44, 14, 2, 0.15);
+    border-radius: 10px;
+}
+.add
+{
+    background-image: url(plus.png);
+    background-size: cover;
+}
+.subtract
+{
+    background-image: url(minus.png);
+    background-size: cover;
+}
+h2
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h4
+{
+    margin-top: 10px;
+    font-size: 20pt;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+}
